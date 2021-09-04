@@ -1,7 +1,7 @@
 :root{
---primary-color:rgba(21, 193, 199, 0.11); 
+--primary-color:rgba(13, 110, 139, 0.75); 
 --secondary-color:rgba(16, 126, 129, 0.945);
---overlry-color:gray;
+--overlry-color:rgb(7, 7, 7);
 --menu-speed:0.75s;
 
 }
@@ -33,7 +33,6 @@ body{
 #showcase:before{
 content: '';
 background: url('../img/download2.jpg') no-repeat center center/cover;
-
 position: absolute;
 top: 0;
 left: 0;

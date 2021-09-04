@@ -1,17 +1,18 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: grey;
-    color: white;
-    text-align: center;
-    padding-top: 100px;
-}
-/*smartphones*/
-@media(max-width:500px){
-body {
-    background: rgb(145, 145, 4);
-    color: wheat;
-            }
-#Smartphone h1{
-    display: block;
-   
-}
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create four equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
