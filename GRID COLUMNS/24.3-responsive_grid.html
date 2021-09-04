@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: box1; background-color:orange;}
+.item2 { grid-area: box2; background-color:blue;}
+.item3 { grid-area: box3; background-color:green;}
+.item4 { grid-area: box4; background-color:purple;}
+.item5 { grid-area: box5; background-color:red;}
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'box1 box1 box1 box1'
+    'box2 box3 box3 box3'
+    'box4 box4 box4 box4'
+    'box5 box5 box5 box5';
+    grid-gap: 10px;
+    background-color:white;
+    padding: 10px;
+    
+}
+}
+@media only screen and  (max-width: 768px) {
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'box1 box1 box1 box1'
+    'box2 box2 box2 box2'
+    'box3 box3 box3 box3'
+    'box4 box4 box4 box4'
+    'box5 box5 box5 box5';
+    grid-gap: 10px;
+    background-color:white;
+    padding: 10px;
+    
+}
+}
+@media  (min-width: 1025px) {
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'box1 box1 box1 box1'
+    'box2 box3 box3 box4'
+    'box5 box5 box5 box5';
+    grid-gap: 10px;
+    background-color:white;
+    padding: 10px;
+    
+}
+}
+.grid-container > div {
+  
+  padding: 20px 0;
+   border-radius: 10px;
+   
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Sidebar</div>
+  <div class="item3">Content<br> More content than we had before so this column<br> is now quite tall</div>  
+  <div class="item4">Sidebar 2</div>
+  <div class="item5">Footer</div>
+</div>
+
+</body>
+</html>

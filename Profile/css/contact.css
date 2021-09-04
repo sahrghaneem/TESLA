@@ -1,0 +1,21 @@
+body{
+   background-image: url("../img/111.jpg");
+   background-repeat: no-repeat;
+   background-size: 100vw 100vh;
+   font-size: 14px;
+    line-height: 20px;
+   
+   
+}
+.contact{
+margin-top: 60px;
+margin-left: 30%;  
+
+}
+h1, h2{
+    color:midnightblue;
+}
+form{
+    color:midnightblue;
+    font-size: 20px;
+}

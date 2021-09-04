@@ -1,0 +1,31 @@
+.container{
+    margin:10%;
+    height: 100vh;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    background-color:wheat;
+    width: 80%;
+    height: 70%;
+}
+.first div{
+    width: 20%;
+    height: 20% ;
+}
+
+.first-first{
+background-color: green;
+
+
+}
+
+.first-second{
+    background-color: blue;
+}
+
+.first-third{
+    background-color:red;
+}

@@ -1,0 +1,30 @@
+.topnav {
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    opacity: 0.7;
+    margin-top:-8px;
+  }
+  
+  .topnav a {
+    color: White;
+    text-align: center;
+    padding:20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    opacity: 1 !important;
+  }
+  
+  .topnav a:hover {
+    background-color:lightcoral;
+    color:deeppink;
+    transition-duration: 0.5s;
+    transform: translateY(-15px);
+    
+    
+  }
+  
+  .topnav a.active {
+    background-color:lightcoral;
+    color:deeppink;
+  }

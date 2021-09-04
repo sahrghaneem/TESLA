@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 2em;
+}
+
+a{
+    color: black;
+    text-decoration: 20px;
+}
+
+h1, h2, h3  {
+    padding-bottom: 20px;
+
+}
+p{
+    margin: 10px 0;
+}
+h1.bottom{
+    color: black;
+}
+.container {
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+#navbar{
+    background: transparent;
+    color:white;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar a{
+    color: gray;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+    position:sticky;
+}
+#navbar ul li a {
+    display: block;
+    padding: 5px;
+    margin-left:5px ;
+    text-align: center;
+}
+
+
+
+#navbar ul li a:hover
+{
+    border-radius: 45px;
+    background: gray ;
+    color:wheat;
+    opacity: 0.5;
+
+}
+.logo{
+    float: left;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+#showcaseS{
+    background:url('../images/MS-Hero-Mobile.jfif') no-repeat 
+    center center/cover;
+    height: 100vh;
+
+    
+}
+
+
+.showcase-content{
+    color: gray;
+    text-align: center;
+    padding-top:170px;
+}
+
+
+#showcaseSHero{
+    background:url('../images/MS-Hero-Mobile.jfif') no-repeat 
+    center center/cover;
+    height: 100vh;
+    color:white;
+    
+}  
+
+
+#showcaseS .showcaseS-content , #showcaseS .showcaseS-content a{
+    color: gray;
+    text-align: center;
+    padding-top:170px;
+}
+
+#showcaseS .showcaseS-content h1{
+    font-size: 60px;
+    color:#333;
+}
+
+#showcase3{
+    background:url('../images/M3-Homepage-M.jfif') no-repeat 
+    center center/cover;
+    height: 100vh;
+}
+#showcase3Hero{
+    background:url('../images/M3-Hero-LHD-US-D.jpg') no-repeat 
+    center center/cover;
+    height: 100vh;
+}
+#showcase3Hero h1{
+    color:white;
+}
+#showcaseX{
+    background:url('../images/MX-Hero-Mobile.jfif') no-repeat 
+    center center/cover;
+    height: 100vh;
+}
+
+#showcaseXHero{
+    background:url('../images/MX-Hero-Mobile.jfif') no-repeat 
+    center center/cover;
+    height: 100vh;
+}
+
+.buttonRoundBlack {
+    background-color: black;
+    padding: 10px 25px;
+    margin: 30px 21px;
+    text-decoration: none;
+    border: none;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 24px;
+    }
+
+.buttonRoundWhite {  
+    padding: 10px 25px;
+    margin: 30px 21px;
+    text-decoration: none;
+    border: none;
+    color:black;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 24px;
+    border-width: 30px;
+    }

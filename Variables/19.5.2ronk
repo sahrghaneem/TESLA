@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19.5</title>
+    <style>
+        body{
+            background-color: #333;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            position: relative;
+            background-color: rgb(58, 85, 126);
+            width: 10px;
+            height: 10px;
+            top: 0;
+            left: 0;
+            border-radius: 50%;
+             animation-name:jump ;
+             animation-duration: 1s;
+             animation-iteration-count:infinite;
+             animation-delay: 0.75s;
+             
+
+        }
+        .box::before{
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: rgb(58, 85, 126);
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            top: 0;
+            left: -150%;
+            animation-name:jump ;
+            animation-duration: 1s;
+             animation-iteration-count: infinite;
+             animation-delay: 0.5s; 
+            
+        }
+        .box::after{
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: rgb(58, 85, 126);
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            top: 0;
+            left: 150%;
+            animation-name:jump ;
+             animation-duration: 1s;
+             animation-iteration-count:infinite;
+             animation-delay: 1s;
+        }
+
+        @keyframes jump {
+           0%{
+              transform: scaleY(0px);
+           } 
+           50%{
+              transform: scaleY(-5px);
+            
+           } 
+           100%{
+              transform: scaleY(0px);
+            
+           }   
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

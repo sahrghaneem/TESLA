@@ -1,0 +1,11 @@
+@media(min-width:501px){
+    body {
+        font-size: 30px;
+    }
+    }
+    @media(min-width:786px){
+        body {
+            font-size: 40px;
+        }
+    }
+    

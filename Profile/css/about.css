@@ -1,0 +1,28 @@
+*{
+    
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+body{
+    background-image: url(../img/111.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.parent {
+    width:70%;
+    height: 100%;
+    display: grid;
+    justify-content:center;
+   
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3);
+    grid-column-gap: 0px;
+    grid-row-gap: 2px;
+    }
+.div1 { grid-area: 1 / 1 / 1 / 2;   color:blanchedalmond;margin-left: 30%;}
+
+.div2 { grid-area: 1 / 2 / 1 / 2;   color:blanchedalmond;}
+  

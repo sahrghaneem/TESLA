@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css positioning-1</title>
+    <!--Answer to the first question-->
+    <!--The code does not work because the element is in absolute state it is important that the position of the element is absolute, not related to anything, if we put 3 elements
+         in a part then we put the first in absolute you will see that the last two will go up and be down because it is in absolute state.-->
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+        
+
+        .outer {
+            width: 100px;
+            height: 100px;
+            background: darkcyan;
+            margin: 50px;
+        }
+        .inner{
+             width: 50px;
+            height: 50px;
+             background: lightgreen;
+             position: relative;
+             top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer " class="outer ">
+    <div id="inner" class="inner"></div>
+    </div>
+</body>
+</html>
